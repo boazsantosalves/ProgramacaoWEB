@@ -1,0 +1,72 @@
+<!doctype html>
+<html>
+
+  <head>
+
+    <meta charset="UTF-8" />
+    <title>Instituto Federal da Paraíba</title>
+
+  </head>
+
+  <body>
+
+    <p>
+      <center>
+      <img src="imagens/campus-guarabira.png" width="5%"/> <!--tem que ter a pasta "imagens" no projeto-->
+      </center>
+    </p>
+
+    <p>
+      Me chamo Boaz, sou aluno do IFPB Campus Guarabira, faço Curso Técnico em Informática integrado ao Ensino Médio e atualmente pago as seguintes matérias:
+    </p>
+
+    <p>
+      <br>
+      <ul> <!--Lista desordenada-->
+        <li>Análise e Projeto de Sistema</li> <!--itens-->
+        <li> Biologia III</li>
+        <li>Desenvolvimento de Aplicações Web</li>
+        <li>Empreendedorismo</li>
+        <li>Filosofia IV</li>
+        <li>Física III</li>
+        <li>Língua Portuguesa e Literatura Brasileira IV</li>
+        <li>Redes de Computadores</li>
+        <li>Sociologia IV</li>
+        <li>Tópicos Especiais em Informática</li>
+      </ul>
+    </p>
+
+    <p>
+      <br>
+      <a href="https://www.ifpb.edu.br/guarabira" target="_blank"> Site do IFPB Campus Guarabira </a>
+    </p>
+
+    <table border="1">
+      <tr> <!--linhas-->
+        
+        <th>Nome</th> <!--Células-->
+        <th>Idade</th>
+        <th colspan="2">Número</th>
+      
+      </tr>
+      <tr>
+        
+        <td>Boaz</td>
+        <td>18</td>
+        <td>888888</td>
+        <td>777777</td>
+      
+      </tr>
+      <tr>
+        
+      </tr>
+
+    </table>
+
+
+
+  </body>
+
+
+
+</html>
