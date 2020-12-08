@@ -1,0 +1,42 @@
+.container{
+    margin-top: 50px;
+}
+
+.container#menu{
+    margin-top: 0px;
+}
+
+footer{
+    color: white;
+    margin-top: 60px;
+}
+
+ul{
+    text-align: center;
+}
+
+h5{
+    text-align: center;
+}
+
+footer ul li a{
+    color: white;
+}
+
+footer ul li a:hover{
+    color: #9b9a9a;
+    text-decoration: none;
+}
+
+.footer-copyright.text-center.py-3{
+    font-size: 12px;
+}
+
+hr{
+    width: 50%;
+    height: 1px;
+    border: 0px;
+    border-top: 1px solid #000000;
+    background-color: #dddddd;
+    size: 10px;
+}
