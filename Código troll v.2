@@ -1,0 +1,43 @@
+function enviarScript(scriptText){
+    const lines = scriptText.split("."); 
+
+    let i = 0;       
+
+    setInterval(() => { 
+        if(i >= 4000) return
+
+        if(lines[0].trim() != ''){ 
+            console.log(lines[0]); 
+    
+            window.InputEvent = window.Event || window.InputEvent;
+    
+            const event = new InputEvent('input', { bubbles: true });
+    
+            const textbox = document.querySelector('#main div._13NKt');
+    
+            textbox.textContent = lines[0];
+    
+            textbox.dispatchEvent(event);
+    
+            document.querySelector("#main span[data-testid=send]").click();                   
+
+        }
+        i++;
+    }, 250)
+}
+
+enviarScript(`░░░░█─────────────█▀─▀──
+░░░░▓█───────▄▄▀▀█──────
+░░░░▒░█────▄█▒░░▄░█─────
+░░░░░░░▀▄─▄▀▒▀▀▀▄▄▀─────
+░░░░░░░░░█▒░░░░▄▀───────
+▒▒▒░░░░▄▀▒░░░░▄▀────────
+▓▓▓▓▒░█▒░░░░░█▄─────────
+█████▀▒░░░░░█░▀▄────────
+█████▒▒░░░▒█░░░▀▄───────
+███▓▓▒▒▒▀▀▀█▄░░░░█──────
+▓██▓▒▒▒▒▒▒▒▒▒█░░░░█─────
+▓▓█▓▒▒▒▒▒▒▓▒▒█░░░░░█────
+░▒▒▀▀▄▄▄▄█▄▄▀░░░░░░░█───.
+nada
+`);
